@@ -10,7 +10,6 @@ function UrlWatch() {
 		  , port:   check.port
 		  , path:   check.path
 		};
-		console.log(options);
 		var req     = http.request(options, function(res) {
 			var headersString = JSON.stringify(res.headers);
 			if (headersString != check.headers) {
