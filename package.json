@@ -1,6 +1,6 @@
 {
   "name": "url-watch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Trigger an event on remote file change",
   "main": "url-watch.js",
   "scripts": {
