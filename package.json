@@ -18,6 +18,9 @@
     "event",
     "trigger"
   ],
+  "engines" : { 
+    "node" : ">=0.8.0" 
+  },
   "devDependencies": {
      "grunt": "0.4.x",
      "grunt-bump": "0.0.x",
