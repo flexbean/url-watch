@@ -1,0 +1,32 @@
+{
+  "name": "url-watch",
+  "version": "0.1.0",
+  "description": "Trigger an event on remote file change",
+  "main": "url-watch.js",
+  "scripts": {
+    "test": "mocha -R list test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flexbean/url-watch.git"
+  },
+  "keywords": [
+    "url",
+    "remote",
+    "file",
+    "watch",
+    "event",
+    "trigger"
+  ],
+  "devDependencies": {
+     "grunt": "0.4.x",
+     "grunt-bump": "0.0.x",
+     "mocha": "~1.12.0",
+     "should": "~1.2.2"
+   },
+  "author": "flexbean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flexbean/url-watch/issues"
+  }
+}

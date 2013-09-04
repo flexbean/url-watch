@@ -13,9 +13,13 @@ npm install url-watch
 ```
 var url = require('url-watch');
 
-url.watch('http://somedomain.com/path.htm').on('change', function(header) {
-  console.log(header);
-})
+url.watch({
+	url:   'http://somedomain.com/path.htm'
+	every: 60*1000,                         // minute
+	do:    function(header) {
+	  console.log(header);
+	}
+});
 ```
 
 ## License: MIT
