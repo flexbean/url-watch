@@ -1,4 +1,4 @@
-# url-watch
+# url-watch [![NPM version](https://badge.fury.io/js/url-watch.png)](http://badge.fury.io/js/url-watch) [![Build Status](https://travis-ci.org/flexbean/url-watch.png)](https://travis-ci.org/flexbean/url-watch) [![Dependency Status](https://gemnasium.com/flexbean/url-watch.png)](https://gemnasium.com/flexbean/url-watch)
 
 Trigger an event when a remote file header changes
 
